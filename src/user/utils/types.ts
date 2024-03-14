@@ -14,3 +14,8 @@ export class createUserProfileParams{
     age: number;
     dob: string;
 }
+
+export class CreateUserPostParams{
+    title:string;
+    description:string;
+}
